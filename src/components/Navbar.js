@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-
+import logo from '../img/brain house03_02.tif';
+import {FaAlignRight} from 'react-icons/fa';
+import{Linl} from 'react-router-dom'
 export default class Navbar extends Component {
     render() {
         return (
