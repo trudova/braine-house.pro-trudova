@@ -56,7 +56,7 @@
     text-decoration: none;
     letter-spacing: var(--mainSpacing);
     color: var(--mainBlack);
-    background: var(--primaryColor);
+    background: transparent;
     padding: 0.4rem 0.9rem;
     border: 3px solid var(--primaryColor);
     transition: var(--mainTransition);
@@ -64,7 +64,7 @@
     cursor: pointer;
   }
   .btn-primary:hover {
-    background: transparent;
+    background: var(--mainWhite);
     color: var(--primaryColor);
   }
   .loading {
@@ -175,3 +175,46 @@
 }
 /* End of Hero */
 /* Banner */
+/* Banner */
+.banner {
+  display: inline-block;
+  background: rgba(186, 184, 184, 0.434);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.banner h1 {
+  font-size: 2.5rem;
+  text-shadow: var(--primaryColor) 2px 2px 2px;
+}
+.banner div {
+  width: 25rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-shadow: var(--mainWhite) 1px 1px 1px;
+  color:var(--primaryColor);
+}
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+}
+/* End of Banner */
