@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   :root {
-    --primaryColor: #56bd4d;
+    --primaryColor: #0a0a0a;
     --mainWhite: rgb(255, 255, 255);
     --offWhite: rgb(255, 255, 255);
     --mainBlack: rgb(0, 0, 0);
@@ -18,7 +18,7 @@
     padding-top: 66px;
     color: var(--mainBlack);
     background: var(--mainWhite);
-    font-family: 'Vast Shadow', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.4;
   }
   h1 {
@@ -106,7 +106,7 @@
     outline: none;
   }
   .nav-icon {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--primaryColor);
   }
   /* hiding by dafault */
@@ -124,12 +124,15 @@
     color: var(--mainBlack);
     transition: var(--mainTransition);
     text-align: center;
-    font-size: 1rem;
+    font-size:1.3rem;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
     letter-spacing: var(--mainSpacing);
   }
   .nav-links a:hover {
-    color: var(--primaryColor);
+  
+    text-shadow: rgb(152, 152, 152) 2px 2px 2px;
+    font-family: 'Press Start 2P', cursive;
   }
   
   .show-nav {
