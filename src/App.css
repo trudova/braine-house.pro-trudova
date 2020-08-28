@@ -18,7 +18,7 @@
     padding-top: 66px;
     color: var(--mainBlack);
     background: var(--mainWhite);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.4;
   }
   h1 {
@@ -115,6 +115,7 @@
     overflow: hidden;
     transition: var(--mainTransition);
     list-style-type: none;
+    font-family: 'Rajdhani', sans-serif;
   }
   /* showing up by action */
   .nav-links a {
