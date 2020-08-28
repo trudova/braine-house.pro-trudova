@@ -159,3 +159,19 @@
       padding: 0.5rem 0;
     }
   }
+  /* end of navbar */
+/* Hero */
+.defaultHero,
+.solutionsHero {
+  min-height: calc(100vh - 66px);
+  background: url("./img/world_map_PNG25.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solutionsHero {
+  background-image: url("./img/world_map_PNG25.png");
+  min-height: 60vh;
+}
+/* End of Hero */
+/* Banner */
