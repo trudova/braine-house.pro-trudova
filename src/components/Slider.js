@@ -19,6 +19,7 @@ export default function Slider() {
         (x=== -100*(sliderArr.length -1))?setX(0): setX(x-100);
     }
     return (
+    <>
         <div className='slider'>
           {sliderArr.map((item, index)=>{
 
@@ -34,5 +35,6 @@ export default function Slider() {
           </button>
           <button id="goRight"onClick={goRight}><FaAngleDoubleRight/></button>
         </div>
+        </>
     )
 }
