@@ -194,12 +194,12 @@
   width: 25rem;
   height: 5px;
   background: var(--primaryColor);
-  margin: 1.7rem auto;
+  margin: 2.8rem auto;
 }
-.banner p {
-  font-size: 1.36rem;
-  margin-bottom: 2rem;
-  text-shadow: var(--mainWhite) 2px 2px 2px;
+.banner h4 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  text-shadow: var(--mainWhite) 1px 1px 1px;
   color:var(--primaryColor);
 }
 @media screen and (min-width: 576px) {

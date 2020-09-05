@@ -10,10 +10,10 @@ export default class Partners extends Component {
 
     state={
         partners:[
-{img:logo},
+{img:logo4},
 {img: logo2},
 {img: logo3},
-{img: logo4},
+{img: logo},
 {img:logo5},
 {img:logo6}
         ]
